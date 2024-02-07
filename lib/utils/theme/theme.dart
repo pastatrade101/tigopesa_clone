@@ -27,7 +27,14 @@ class TAppTheme {
     bottomSheetTheme: TBottomSheetTheme.lightBottomSheetTheme,
     elevatedButtonTheme: TElevatedButtonTheme.lightElevatedButtonTheme,
     outlinedButtonTheme: TOutlinedButtonTheme.lightOutlinedButtonTheme,
-    inputDecorationTheme: TTextFormFieldTheme.lightInputDecorationTheme,
+    inputDecorationTheme: TTextFormFieldTheme.lightInputDecorationTheme,navigationBarTheme: NavigationBarThemeData(
+    labelTextStyle: MaterialStateProperty.resolveWith((state) {
+      if (state.contains(MaterialState.selected)) {
+        return const TextStyle(color: TColors.accent);
+      }
+      return const TextStyle(color: TColors.accent);
+    }),
+  ),
   );
 
   static ThemeData darkTheme = ThemeData(

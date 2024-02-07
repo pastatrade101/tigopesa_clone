@@ -1,14 +1,14 @@
 flutter_native_splash:
-  color: "#FFFFFF"
+  color: "#00377B"
   color_dark: "#000000"
-  image: assets/logos/t-store-splash-logo-black.png
-  image_dark: assets/logos/t-store-splash-logo-white.png
+  image: assets/logos/tigopesa-logo.png
+  image_dark: assets/logos/tigopesa-logo.png
 
   android_12:
-    color: "#FFFFFF"
-    color_dark: "#000000"
-    image: assets/logos/t-store-splash-logo-black.png
-    image_dark: assets/logos/t-store-splash-logo-white.png
+    color: "#00377B"
+    color_dark: "#00377B"
+    image: assets/logos/tigopesa-logo.png
+    image_dark: assets/logos/tigopesa-logo.png
 
 
   web: false

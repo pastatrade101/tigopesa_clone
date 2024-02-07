@@ -3,6 +3,8 @@ import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:t_store/utils/constants/text_strings.dart';
 import 'package:t_store/utils/theme/theme.dart';
 
+import 'navigation_menu.dart';
+
 class App extends StatelessWidget {
   const App({super.key});
 
@@ -16,9 +18,7 @@ class App extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       // initialBinding: GeneralBindings(),
       home: const Scaffold(
-        body: Center(
-          child: Text('Awesome! 🎊 Project Structure is set up and running. \n Happy T Coding 🎊', textAlign: TextAlign.center,),
-        ),
+        body: BottomNavigation()
       ),
     );
   }
