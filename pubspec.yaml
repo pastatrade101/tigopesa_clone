@@ -48,14 +48,14 @@ dev_dependencies:
 flutter_native_splash:
   color: "#00377B"
   color_dark: "#000000"
-  image: assets/logos/tigopesa-logo.png
-  image_dark: assets/logos/tigopesa-logo.png
+  image: assets/logos/splash1.png
+  image_dark: assets/logos/splash1.png
 
   android_12:
     color: "#00377B"
     color_dark: "#00377B"
-    image: assets/logos/tigopesa-logo.png
-    image_dark: assets/logos/tigopesa-logo.png
+    image: assets/logos/splash1.png
+    image_dark: assets/logos/splash1.png
 
 
   web: false

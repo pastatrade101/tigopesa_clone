@@ -6,6 +6,8 @@ import 'package:t_store/utils/constants/colors.dart';
 import 'package:t_store/utils/constants/text_strings.dart';
 import 'package:t_store/utils/helpers/helper_functions.dart';
 
+import 'home.dart';
+
 class BottomNavigation extends StatelessWidget {
   const BottomNavigation({super.key});
 
@@ -44,8 +46,8 @@ class BottomNavigation extends StatelessWidget {
 class NavigationController extends GetxController {
   final RxInt selectedIndex = 0.obs;
   final screens = [
-    Container(
-      color: Colors.red,
+    const Home(
+
     ),
     Container(
       color: Colors.blue,
